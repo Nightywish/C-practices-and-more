@@ -10,7 +10,8 @@ int main()
 		cin >> base; //user input 
 	cout << "what is the exponent?"<<endl;
 		cin >> exponent;// user input exponent
-	cout << "the result you are looking for is " << pow(base, exponent) << endl; //output
+		double power = pow(base, exponent);
+		cout << "your result is " << power << endl;
 	return 0;
 
 
